@@ -12,7 +12,7 @@ A minimalist, responsive Show/Hide component featuring a modern dark-themed UI.
 - JavaScript (Vanilla): Light-weight logic for DOM manipulation and event handling.
 
 ## Link
-[Live Demo]()
+[Live Demo](https://mohammadzali2005.github.io/show-hide-toggle-challenge-from-claude/)
 
 ## Preview 
-![ss](./assets/screenshot.png)
+![Dark themed UI with a centered glowing panel containing white lorem ipsum text and a red glowing button labeled Hide Text on a textured black background](./assets/screenshot.png)
