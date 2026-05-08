@@ -9,3 +9,20 @@ A button that hides the paragraph when it's visible, and shows it when it's hidd
 The button label changes — e.g. "Hide text" when visible, "Show text" when hidden
 The text fades in and out smoothly using a CSS transition instead of just snapping on/off
 The button has a hover effect styled with CSS */
+
+const text = document.querySelector('.container');
+const button = document.getElementById('showHide-btn');
+
+button.addEventListener('click', () => {
+    if(button.textContent === 'Hide Text'){
+        text.style.display = 'none';
+        button.style.boxShadow = "0 0 20px green";
+        button.style.backgroundColor = "darkgreen";
+        button.textContent = "Show Text";
+    } else {
+        text.style.display = "block";
+        button.style.boxShadow = "0 0 20px red";
+        button.style.backgroundColor = "darkred";
+        button.textContent = "Hide Text";
+    }
+})

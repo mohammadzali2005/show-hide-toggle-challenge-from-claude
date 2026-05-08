@@ -44,10 +44,10 @@ body{
     padding: 10px 15px;
     border-radius: 5px;
     color: white;
-    background-color: darkgreen;
+    background-color: darkred;
     border: none;
     cursor: pointer;
-    box-shadow: 0 0 20px green;
+    box-shadow: 0 0 20px red;
     transition: box-shadow .3s,
                 background-color .3s;
 }
